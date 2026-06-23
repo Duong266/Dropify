@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Dropify</string>
+    <string name="songs_count_format">%1$d Bài hát</string>
+    <string name="rename_playlist">Đổi tên danh sách</string>
+    <string name="delete_playlist">Xóa danh sách</string>
+    <string name="delete_playlist_confirm">Bạn có chắc chắn muốn xóa danh sách \'%1$s\' không?</string>
+    <string name="save">Lưu</string>
+    <string name="cancel">Hủy</string>
+    <string name="delete">Xóa</string>
+    <string name="create_playlist">Tạo danh sách mới</string>
+    <string name="playlist_name">Tên danh sách nhạc</string>
+    <string name="add_to_playlist">Thêm vào danh sách</string>
+    <string name="favorites">Yêu thích</string>
+    <string name="last_added">Gần đây</string>
+</resources>

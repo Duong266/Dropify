@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_bottom_sheet"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <View
+        android:layout_width="40dp"
+        android:layout_height="4dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:background="@color/divider_color" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tốc độ và cao độ"
+        android:textColor="@color/text_primary"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/tvSpeedLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tốc độ: 1.00x"
+        android:textColor="@color/text_secondary"
+        android:textSize="14sp"
+        android:layout_marginBottom="8dp"/>
+
+    <SeekBar
+        android:id="@+id/sbSpeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="150"
+        android:progress="50"
+        android:progressTint="@color/color_primary"
+        android:thumbTint="@color/color_primary"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/tvPitchLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cao độ: 1.00"
+        android:textColor="@color/text_secondary"
+        android:textSize="14sp"
+        android:layout_marginBottom="8dp"/>
+
+    <SeekBar
+        android:id="@+id/sbPitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="150"
+        android:progress="50"
+        android:progressTint="@color/color_primary"
+        android:thumbTint="@color/color_primary"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btnResetSpeed"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đặt lại về mặc định"
+        android:textColor="@color/color_primary"/>
+</LinearLayout>
